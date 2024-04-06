@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+mat-toolbar{
+    background-color: rgb(24, 30, 38);  
+    height: 114px;
+}
+
+.icon-btn{
+    background-image:image-set('./assets/logo_steam.svg');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+    color: aliceblue;
+}
+
+.buttons button{
+    background: none;
+    color: rgb(220, 221, 222);
+    background: none;
+    font-size: 24px;
+}
+
+.buttons button:hover{
+    color:rgb(255, 255, 255);
+}
+
+.container-btn{
+    display: flex;
+    width: 78%;
+    justify-content: space-between;
+}
+
+.container-btn>div:last-child>button{
+    background: none;
+    color: whitesmoke;
+}

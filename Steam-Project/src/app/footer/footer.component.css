@@ -1,0 +1,18 @@
+mat-toolbar{
+    background: rgb(24, 30, 38);
+    color: rgb(196, 194, 190);
+}
+mat-toolbar>div{
+    display: flex;
+    width: 100%;
+}
+mat-toolbar>div:first-child{
+    gap: 10px;
+}
+mat-toolbar>div>i:first-child{
+    margin: 5px;
+}
+mat-toolbar>button{ 
+    background: none;
+    color: aliceblue;
+}
