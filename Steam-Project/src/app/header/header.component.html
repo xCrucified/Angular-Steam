@@ -1,18 +1,17 @@
 <header>
     <mat-toolbar>
-        <div class="icon-btn">
-            <button mat-button routerLink="/"></button>
-        </div>
+        <button mat-button routerLink="/" class="icon-btn"></button>
+
         <div class="container-btn">
             <div class="example-button-row buttons">
-                <button mat-raised-button>Shop</button>
-                <button mat-raised-button>Community</button>
-                <button mat-raised-button>Information</button>
-                <button mat-raised-button>Profile</button>
+                <button mat-raised-button routerLink="/editions">Shop</button>
+                <button mat-raised-button routerLink="/add-edition">Add</button>
+                <!-- <button mat-raised-button routerLink="/information">Information</button>
+                <button mat-raised-button routerLink="/profile">Profile</button> -->
             </div>
-
             <div class="example-button-row">
-                <button mat-raised-button><i class="material-icons">login</i></button>
+                <button mat-raised-button >login</button>
+                <button mat-raised-button >register</button>
             </div>
         </div>
     </mat-toolbar>

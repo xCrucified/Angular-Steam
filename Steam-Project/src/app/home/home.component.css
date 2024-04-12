@@ -1,4 +1,8 @@
-main{
+.container{
     background: rgb(27, 40, 56);
-    
+    height: 80vh;
+    position: relative;
 }
+.example-card {
+    max-width: 400px;
+  }
